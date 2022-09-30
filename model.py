@@ -18,6 +18,7 @@ class User(db.Model):
     def __repr__(self):
         return f"<user_id={self.user_id}, points={self.points}>"
 
+'''
 class Points(db.Model):
     __tablename__ = "points"
 
@@ -28,8 +29,8 @@ class Points(db.Model):
 
     def __repr__(self):
         return f"<payer={self.payer}, points={self.points}, date={self.date}>"
-    
-
+'''
+  
 class Payer(db.Model):
     __tablename__ = "payers"
 
